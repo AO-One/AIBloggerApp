@@ -86,3 +86,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ADDED LOGIC FOR OUT-DOING THE PLATFORM BADGE */
+.base44-badge, [class*="base44"] {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
